@@ -1,24 +1,18 @@
 print("Démarrage du script en cours...")
 
-def InInterval(a: float, b: float, x: float, intervalType: str):
-    intervalType = intervalType.lower()
+def InInterval(a: float, b: float, x: float, interval_type: str):
+    interval_type = interval_type.lower()
 
-    if (intervalType == "fermé"):
-        if a <= x and x <= b:
-            return(True)
-    elif (intervalType == "ouvert"):
-        if a < x and x < b:
-            return(True)
-    elif (intervalType == "semi ouvert à gauche"):
-        if a < x and x <= b:
-            return(True)
-    elif (intervalType == "semi ouvert à droite"):
-        if a <= x and x < b:
-            return(True)
+    if interval_type == "fermé" and a <= x <= b:
+        return(True)
+    elif interval_type == "ouvert" and a < x < b:
+        return(True)
+    elif interval_type == "semi-ouvert à gauche" and a < x <= b:
+        return(True)
+    elif interval_type == "semi-ouvert à droite" and a <= x < b:
+        return(True)
     else:
-        return(None)
-
-    return(False)
+        return(False)
     
 def main():
     print("Nous travaillons sur les intervalles avec les valeurs a ; x et b")
