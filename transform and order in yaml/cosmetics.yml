@@ -1,0 +1,1198 @@
+blocks:
+  stonebricks:
+    name: Pierre taillé
+    item: STONE_BRICKS
+    unlockDefault: true
+    permissionEnable: true
+    permission: block.stonebricks
+    price:
+      enable: false
+      coinsEnable: false
+      coins: 0
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+  glowstone:
+    name: Pierre lumineuse
+    item: GLOWSTONE
+    unlockDefault: false
+    permissionEnable: false
+    permission: block.glowstone
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 350
+      levelEnable: true
+      level: 22
+      killsEnable: true
+      kills: 10
+      deathsEnable: true
+      deaths: 10
+  gold block:
+    name: bloc d'or
+    item: GOLD_BLOCK
+    unlockDefault: false
+    permissionEnable: false
+    permission: block.goldblock
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 550
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+  melon:
+    name: bloc de pastèque
+    item: MELON
+    unlockDefault: false
+    permissionEnable: false
+    permission: block.melon
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 200
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+  brick:
+    name: bloc de briques
+    item: BRICK
+    unlockDefault: false
+    permissionEnable: false
+    permission: block.brick
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 250
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+  prismarine:
+    name: Prismarine
+    item: PRISMARINE
+    unlockDefault: false
+    permissionEnable: true
+    permission: block.prismarine
+    minRank: '&bPro'
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    price:
+      enable: false
+      coinsEnable: false
+      coins: 0
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+  acacia log:
+    name: Tronc d'Acacia
+    item: ACACIA_LOG
+    unlockDefault: false
+    permissionEnable: false
+    permission: block.acacialog
+    minRank: '&bDebutant'
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 250
+      levelEnable: true
+      level: 0
+      killsEnable: true
+      kills: 3
+      deathsEnable: false
+      deaths: 0
+  red sandstone:
+    name: Grès rouge
+    item: RED_SANDSTONE
+    unlockDefault: false
+    permissionEnable: false
+    permission: block.redsandstone
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 500
+      levelEnable: true
+      level: 2
+      killsEnable: true
+      kills: 10
+      deathsEnable: true
+      deaths: 3
+  polishedgranite:
+    name: Granite polie
+    item: POLISHED_GRANITE
+    unlockDefault: false
+    permissionEnable: false
+    permission: block.polishedgranite
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 350
+      levelEnable: true
+      level: 10
+      killsEnable: true
+      kills: 13
+      deathsEnable: true
+      deaths: 5
+  haybale:
+    name: Botte de foin
+    item: HAY_BLOCK
+    unlockDefault: false
+    permissionEnable: false
+    permission: block.haybale
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 750
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+  netherrack:
+    name: Netherrack
+    item: NETHERRACK
+    unlockDefault: false
+    permissionEnable: false
+    permission: block.netherrack
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 210
+      levelEnable: false
+      level: 0
+      killsEnable: true
+      kills: 15
+      deathsEnable: false
+      deaths: 0
+  coal ore:
+    name: Minerais de charbon
+    item: COAL_ORE
+    unlockDefault: false
+    permissionEnable: false
+    permission: block.coalore
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 200
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: true
+      deaths: 15
+  bookshelf:
+    name: Bibliothèque
+    item: BOOKSHELF
+    unlockDefault: false
+    permissionEnable: false
+    permission: block.bookshelf
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 350
+      levelEnable: true
+      level: 10
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+  snow block:
+    name: Block de neige
+    item: SNOW_BLOCK
+    unlockDefault: false
+    permissionEnable: false
+    permission: block.snowblock
+    bypassVerification:
+      enable: true
+      unlockOnUse: false
+    price:
+      enable: false
+      coinsEnable: false
+      coins: 0
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+
+sounds:
+  Tonnere:
+    name: '&eTonnere'
+    description:
+    - ' '
+    - '&6Le son de la foudre !'
+    - ' '
+    item: blaze rod
+    unlockDefault: false
+    permissionEnable: false
+    permission: combo.sound.tonnere
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 1750
+      levelEnable: true
+      level: 3
+      killsEnable: true
+      kills: 150
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    SonConfig:
+      VolumeMin: 1
+      VolumeMax: 3
+      PitchMin: 0
+      PitchMax: 2
+      ID: ambient.weather.thunder
+  Splash:
+    name: '&9Splash !'
+    description:
+    - ' '
+    - '&bLe son de la mer !'
+    - ' '
+    item: water bucket
+    unlockDefault: false
+    permissionEnable: false
+    permission: combo.sound.splash
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 2500
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    SonConfig:
+      VolumeMin: 1
+      VolumeMax: 3
+      PitchMin: 0
+      PitchMax: 2
+      ID: game.player.swim.splash
+  Firework_launch:
+    name: '&cFeu d''artifice'
+    description:
+    - ' '
+    - '&cLe bruit de l''envol !'
+    - ' '
+    item: firework
+    unlockDefault: false
+    permissionEnable: false
+    permission: combo.sound.firework_launch
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 1300
+      levelEnable: true
+      level: 10
+      killsEnable: false
+      kills: 0
+      deathsEnable: true
+      deaths: 14
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    SonConfig:
+      VolumeMin: 1
+      VolumeMax: 3
+      PitchMin: 0
+      PitchMax: 2
+      ID: fireworks.launch
+  Portal:
+    name: '&8Portail du nether'
+    description:
+    - ' '
+    - '&7Le bruit de l''enfer !'
+    - ' '
+    item: obsidian
+    unlockDefault: false
+    permissionEnable: false
+    permission: combo.sound.netherportal
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 250
+      levelEnable: false
+      level: 0
+      killsEnable: true
+      kills: 50
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    SonConfig:
+      VolumeMin: 1
+      VolumeMax: 3
+      PitchMin: 0
+      PitchMax: 2
+      ID: portal.portal
+  Anvil_Break:
+    name: '&8Enclume'
+    description:
+    - ' '
+    - '&7Pour montrer que tu es aussi rÃ©sistant qu''une enclume.'
+    - ' '
+    item: anvil
+    unlockDefault: false
+    permissionEnable: false
+    permission: combo.sound.anvilbreak
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 1500
+      levelEnable: false
+      level: 0
+      killsEnable: true
+      kills: 10
+      deathsEnable: true
+      deaths: 1
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    SonConfig:
+      VolumeMin: 1
+      VolumeMax: 3
+      PitchMin: 0
+      PitchMax: 2
+      ID: random.anvil_break
+  Drink:
+    name: '&bEau'
+    description:
+    - ' '
+    - '&bPour rapeller qu''il est important de s''hydrater !'
+    - ' '
+    item: water bottle
+    unlockDefault: false
+    permissionEnable: true
+    permission: combo.sound.drink
+    price:
+      enable: false
+      coinsEnable: false
+      coins: 0
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    SonConfig:
+      VolumeMin: 1
+      VolumeMax: 3
+      PitchMin: 0
+      PitchMax: 2
+      ID: random.drink
+  Levelup:
+    name: '&aLevel UP'
+    description:
+    - ' '
+    - '&2Pour montrer a tout le monde que tu as level up.'
+    - ' '
+    item: xp bottle
+    unlockDefault: false
+    permissionEnable: false
+    permission: combo.sound.levelup
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 1500
+      levelEnable: true
+      level: 10
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    SonConfig:
+      VolumeMin: 1
+      VolumeMax: 3
+      PitchMin: 0
+      PitchMax: 2
+      ID: random.levelup
+  Wood_click:
+    name: '&7Clique'
+    description:
+    - ' '
+    - '&3Les souvenirs...'
+    - ' '
+    item: mossy cobblestone
+    unlockDefault: false
+    permissionEnable: false
+    permission: combo.sound.woodclick
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 4500
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: true
+      deaths: 15
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    SonConfig:
+      VolumeMin: 1
+      VolumeMax: 3
+      PitchMin: 0
+      PitchMax: 2
+      ID: random.wood_click
+  Successful_hit:
+    name: '&4CiblÃ©'
+    description:
+    - ' '
+    - '&fPour rappeller que tu rates jamais ta cible !'
+    - ' '
+    item: bow
+    unlockDefault: false
+    permissionEnable: false
+    permission: combo.sound.successfulhit
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 4000
+      levelEnable: false
+      level: 0
+      killsEnable: true
+      kills: 30
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: false
+    SonConfig:
+      VolumeMin: 1
+      VolumeMax: 3
+      PitchMin: 0
+      PitchMax: 2
+      ID: random.wood_click
+
+weapons:
+  woodensword:
+    name: '&6Ã‰pÃ©e en bois'
+    description:
+    - '&c'
+    - '&aBest arme ever'
+    - '&c'
+    item: wooden sword
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.sword.wooden
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 150
+      levelEnable: false
+      level: 3
+      killsEnable: true
+      kills: 1
+      deathsEnable: false
+      deaths: 1
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  stonesword:
+    name: '&7Ã‰pÃ©e en pierre'
+    description:
+    - '&c'
+    - '&aUn lance-pierre'
+    - '&c'
+    item: stone sword
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.sword.stone
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 350
+      levelEnable: true
+      level: 3
+      killsEnable: true
+      kills: 10
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  goldensword:
+    name: '&eÃ‰pÃ©e en or'
+    description:
+    - '&c'
+    - '&aUne preuve de richesse'
+    - '&c'
+    item: golden sword
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.sword.gold
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 500
+      levelEnable: false
+      level: 0
+      killsEnable: true
+      kills: 15
+      deathsEnable: true
+      deaths: 5
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  ironsword:
+    name: '&fÃ‰pÃ©e en fer'
+    description:
+    - '&c'
+    - '&aDur comme du fer'
+    - '&c'
+    item: iron sword
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.sword.iron
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 800
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  diamondsword:
+    name: '&bÃ‰pÃ©e en diamant'
+    description:
+    - '&c'
+    - '&aUne preuve de richesse'
+    - '&c'
+    item: diamond sword
+    unlockDefault: false
+    permissionEnable: true
+    permission: arme.sword.diamond
+    price:
+      enable: false
+      coinsEnable: false
+      coins: 0
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  netheritesword:
+    name: '&8Ã‰pÃ©e en netherite'
+    description:
+    - '&c'
+    - '&aUne preuve de nouveautÃ© !'
+    - '&c'
+    item: netherite sword
+    unlockDefault: false
+    permissionEnable: true
+    permission: arme.sword.netherite
+    price:
+      enable: false
+      coinsEnable: false
+      coins: 0
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  torch:
+    name: '&6Torche'
+    description:
+    - '&c'
+    - '&aUne preuve d''intelligence'
+    - '&c'
+    item: torch
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.torch
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 450
+      levelEnable: true
+      level: 1
+      killsEnable: false
+      kills: 0
+      deathsEnable: true
+      deaths: 2
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  stick:
+    name: '&8BÃ¢ton'
+    description:
+    - '&c'
+    - '&aPour les enfants'
+    - '&c'
+    item: stick
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.stick
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 20
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  blazerod:
+    name: '&8Blaze rod'
+    description:
+    - '&c'
+    - '&aPour les cramer'
+    - '&c'
+    item: blaze rod
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.blazerod
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 1000
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  netherstar:
+    name: '&fNether star'
+    description:
+    - '&c'
+    - '&aPour les imprÃ©ssionÃ©s'
+    - '&c'
+    item: nether star
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.netherstar
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 1500
+      levelEnable: true
+      level: 10
+      killsEnable: true
+      kills: 25
+      deathsEnable: true
+      deaths: 2
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  emerald:
+    name: '&aEmeraude'
+    description:
+    - '&c'
+    - '&bLa richesse dans vos mains !'
+    - '&c'
+    item: emerald
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.sword.emerald
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 1500
+      levelEnable: false
+      level: 3
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  redstone dust:
+    name: '&cPoudre de redstone'
+    description:
+    - '&c'
+    - '&aLa profession de minecraft la plus stylÃ© !'
+    - '&c'
+    item: redstone dust
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.sword.redstone
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 5000
+      levelEnable: false
+      level: 3
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  goldencarrot:
+    name: '&eCarrote en or'
+    description:
+    - '&c'
+    - '&aPour se nourrir correctement.'
+    - '&c'
+    item: golden carrot
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.item.goldencarrot
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 250
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: true
+      deaths: 25
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  blazepowder:
+    name: '&6Poudre de blaze'
+    description:
+    - '&c'
+    - '&cLe feu en personne'
+    - '&c'
+    item: blaze powder
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.item.blazepowder
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 1000
+      levelEnable: false
+      level: 0
+      killsEnable: true
+      kills: 15
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  apple:
+    name: '&cPomme'
+    description:
+    - '&c'
+    - '&bUne bonne pomme pour commencer la journÃ©e.'
+    - '&c'
+    item: apple
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.item.apple
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 525
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  brick:
+    name: '&6Brique'
+    description:
+    - '&c'
+    - '&6La brique de l''overworld'
+    - '&c'
+    item: brick
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.item.brick
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 1000
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  gunpowder:
+    name: '&7Poudre Ã  canon'
+    description:
+    - '&c'
+    - '&7Une partie de la &cT&7N&cT'
+    - '&c'
+    item: gun powder
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.item.gunpowder
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 350
+      levelEnable: false
+      level: 0
+      killsEnable: true
+      kills: 7
+      deathsEnable: true
+      deaths: 3
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  woodenaxe:
+    name: '&6Hache en bois'
+    description:
+    - '&c'
+    - '&aMieux que l''Ã©pÃ©e en bois en tout cas'
+    - '&c'
+    item: wooden axe
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.axe.wooden
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 150
+      levelEnable: false
+      level: 0
+      killsEnable: true
+      kills: 5
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  stoneaxe:
+    name: '&7Hache en pierre'
+    description:
+    - '&c'
+    - '&aUn lance-pierre amÃ©liorer'
+    - '&c'
+    item: stone axe
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.axe.stone
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 350
+      levelEnable: true
+      level: 5
+      killsEnable: true
+      kills: 15
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  goldenaxe:
+    name: '&eHache en or'
+    description:
+    - '&c'
+    - '&aUne trÃ¨s grosse preuve de richesse'
+    - '&c'
+    item: golden axe
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.axe.gold
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 500
+      levelEnable: true
+      level: 3
+      killsEnable: true
+      kills: 20
+      deathsEnable: true
+      deaths: 5
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  ironaxe:
+    name: '&fHache en fer'
+    description:
+    - '&c'
+    - '&aDur comme du fer'
+    - '&c'
+    item: iron axe
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.axe.iron
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 800
+      levelEnable: true
+      level: 3
+      killsEnable: true
+      kills: 7
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  diamondaxe:
+    name: '&bHache en diamant'
+    description:
+    - '&c'
+    - '&aUne preuve de richesse moins grande'
+    - '&c'
+    item: diamond axe
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.axe.diamond
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 5000
+      levelEnable: true
+      level: 25
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  netheriteaxe:
+    name: '&8Hache en netherite'
+    description:
+    - '&c'
+    - '&aUne preuve de nouveautÃ© !'
+    - '&c'
+    item: netherite axe
+    unlockDefault: false
+    permissionEnable: false
+    permission: arme.axe.netherite
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 10000
+      levelEnable: true
+      level: 40
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+
+armorColors:
+  black:
+    name: '&0Couleur noir'
+    item: black dye
+    unlockDefault: false
+    permissionEnable: false
+    permission: armor.colors.black
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 50
+      levelEnable: true
+      level: 2
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  red:
+    name: '&cCouleur rouge'
+    item: red dye
+    unlockDefault: false
+    permissionEnable: false
+    permission: armor.colors.red
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 50
+      levelEnable: true
+      level: 3
+      killsEnable: true
+      kills: 2
+      deathsEnable: true
+      deaths: 5
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  blue:
+    name: '&1Couleur bleu'
+    item: blue dye
+    unlockDefault: false
+    permissionEnable: false
+    permission: armor.colors.blue
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 75
+      levelEnable: true
+      level: 5
+      killsEnable: true
+      kills: 5
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  green:
+    name: '&2Couleur verte'
+    item: green dye
+    unlockDefault: false
+    permissionEnable: false
+    permission: armor.colors.green
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 25
+      levelEnable: true
+      level: 2
+      killsEnable: true
+      kills: 5
+      deathsEnable: true
+      deaths: 5
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  yellow:
+    name: '&eCouleur jaune'
+    item: yellow dye
+    unlockDefault: false
+    permissionEnable: false
+    permission: armor.colors.yellow
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 25
+      levelEnable: true
+      level: 2
+      killsEnable: true
+      kills: 5
+      deathsEnable: true
+      deaths: 5
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  gray:
+    name: '&7Couleur grise'
+    item: gray dye
+    unlockDefault: false
+    permissionEnable: false
+    permission: armor.colors.gray
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 80
+      levelEnable: false
+      level: 0
+      killsEnable: false
+      kills: 0
+      deathsEnable: true
+      deaths: 10
+    bypassVerification:
+      enable: false
+      unlockOnUse: true
+  purple:
+    name: '&5Couleur violet'
+    item: purple dye
+    unlockDefault: false
+    permissionEnable: false
+    permission: armor.colors.purple
+    price:
+      enable: true
+      coinsEnable: true
+      coins: 450
+      levelEnable: true
+      level: 3
+      killsEnable: false
+      kills: 0
+      deathsEnable: false
+      deaths: 0
+    bypassVerification:
+      enable: false
+      unlockOnUse: true

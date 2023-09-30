@@ -1,0 +1,168 @@
+black:
+  Nom: "&0Couleur noir"
+  Item: black dye
+  Modif:
+    ChangeName: false
+    NewName: Couleur noir
+    ChangeLore: true
+    NewLore:
+      - "&c"
+      - "&6Une armure en cuir de couleur &0noir&6."
+      - "&c"
+  BypassCheckForUsePourTous:
+    Actif: false
+    UnlockIfUse: true
+  Achetable:
+    Actif: true
+    PrixEnable: true
+    Prix: 50
+    NiveauMinEnable: true
+    NiveauMin: 2
+    KillsMinEnable: false
+    KillsMin: 0
+    MortsMinEnable: false
+    MortsMin: 0
+red:
+  Nom: "&cCouleur rouge"
+  Item: red dye
+  Modif:
+    ChangeName: false
+    NewName: Couleur rouge
+    ChangeLore: true
+    NewLore:
+      - "&c"
+      - "&6Une armure en cuir de couleur &crouge&6."
+      - "&c"
+  BypassCheckForUsePourTous:
+    Actif: false
+    UnlockIfUse: true
+  Achetable:
+    Actif: true
+    PrixEnable: true
+    Prix: 50
+    NiveauMinEnable: true
+    NiveauMin: 3
+    KillsMinEnable: true
+    KillsMin: 2
+    MortsMinEnable: true
+    MortsMin: 5
+blue:
+  Nom: "&1Couleur bleu"
+  Item: blue dye
+  Modif:
+    ChangeName: false
+    NewName: Couleur bleu
+    ChangeLore: true
+    NewLore:
+      - "&c"
+      - "&6Une armure en cuir de couleur &1bleu&6."
+      - "&c"
+  BypassCheckForUsePourTous:
+    Actif: false
+    UnlockIfUse: true
+  Achetable:
+    Actif: true
+    PrixEnable: true
+    Prix: 75
+    NiveauMinEnable: true
+    NiveauMin: 5
+    KillsMinEnable: true
+    KillsMin: 5
+    MortsMinEnable: false
+    MortsMin: 0
+green:
+  Nom: "&2Couleur verte"
+  Item: green dye
+  Modif:
+    ChangeName: false
+    NewName: Couleur verte
+    ChangeLore: true
+    NewLore:
+      - "&c"
+      - "&6Une armure en cuir de couleur &2verte&6."
+      - "&c"
+  BypassCheckForUsePourTous:
+    Actif: false
+    UnlockIfUse: true
+  Achetable:
+    Actif: true
+    PrixEnable: true
+    Prix: 25
+    NiveauMinEnable: true
+    NiveauMin: 2
+    KillsMinEnable: true
+    KillsMin: 5
+    MortsMinEnable: true
+    MortsMin: 5
+yellow:
+  Nom: "&eCouleur jaune"
+  Item: yellow dye
+  Modif:
+    ChangeName: false
+    NewName: Couleur jaune
+    ChangeLore: true
+    NewLore:
+      - "&c"
+      - "&6Une armure en cuir de couleur &ejaune&6."
+      - "&c"
+  BypassCheckForUsePourTous:
+    Actif: false
+    UnlockIfUse: true
+  Achetable:
+    Actif: true
+    PrixEnable: true
+    Prix: 25
+    NiveauMinEnable: true
+    NiveauMin: 2
+    KillsMinEnable: true
+    KillsMin: 5
+    MortsMinEnable: true
+    MortsMin: 5
+gray:
+  Nom: "&7Couleur grise"
+  Item: gray dye
+  Modif:
+    ChangeName: false
+    NewName: Couleur grise
+    ChangeLore: true
+    NewLore:
+      - "&c"
+      - "&6Une armure en cuir de couleur &7grise&6."
+      - "&c"
+  BypassCheckForUsePourTous:
+    Actif: false
+    UnlockIfUse: true
+  Achetable:
+    Actif: true
+    PrixEnable: true
+    Prix: 80
+    NiveauMinEnable: false
+    NiveauMin: 0
+    KillsMinEnable: false
+    KillsMin: 0
+    MortsMinEnable: true
+    MortsMin: 10
+purple:
+  Nom: "&5Couleur violet"
+  Item: purple dye
+  Modif:
+    ChangeName: false
+    NewName: Couleur violet
+    ChangeLore: true
+    NewLore:
+      - "&c"
+      - "&6Une armure en cuir de couleur &5violet&6."
+      - "&c"
+  BypassCheckForUsePourTous:
+    Actif: false
+    UnlockIfUse: true
+  Achetable:
+    Actif: true
+    PrixEnable: true
+    Prix: 450
+    NiveauMinEnable: true
+    NiveauMin: 3
+    KillsMinEnable: false
+    KillsMin: 0
+    MortsMinEnable: false
+    MortsMin: 0
